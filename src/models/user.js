@@ -15,6 +15,7 @@ const userSchema = mongoose.Schema({
     numero: {
         type: Number,
         required: true,
+        unique: true
 
     },
     nome: {
